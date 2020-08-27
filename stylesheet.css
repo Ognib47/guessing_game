@@ -1,0 +1,107 @@
+body {
+  background-color: lawngreen;
+}
+
+h1 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+}
+
+#start {
+  outline: 0;
+  background-color: crimson;
+  display: block;
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+}
+
+#start:hover {
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px black;
+}
+
+#start:active {
+  outline: 0;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 50%;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+  background-color: gold;
+}
+
+.guess-div {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.guess-div label {
+  font-size: 1.2em;
+  margin-right: 15px;
+}
+
+#status-h2 {
+  text-decoration: none;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 3em;
+}
+
+#guessButton {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  height: 25px;
+  width: 20%;
+  color: white;
+  outline: 0;
+  background-color: crimson;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+#guessButton:hover {
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px black;
+}
+
+#guessButton:active {
+  outline: 0;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 50%;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+  background-color: gold;
+}
+
+#previous-h3 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.array-div {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
